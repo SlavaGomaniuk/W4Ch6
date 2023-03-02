@@ -19,6 +19,12 @@ h1 {
   line-height: 128px;
 }
 h2 {
+  font-family: var(--fontfamily-header);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 85px;
+}
+.hero h2 {
   font-family: var(--fontfamily-p);
   font-weight: 700;
   font-size: 36px;
@@ -45,4 +51,48 @@ h2 {
 .btn-start:hover {
   background: var(--first-color);
   color: #272142;
+}
+.btn-learn {
+  color: var(--first-color);
+  border: 1px solid var(--first-color);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
+}
+.description {
+  padding: 120px 60px;
+}
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.description p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+}
+@media (max-width: 970px) {
+  h2 {
+    font-size: 45px;
+    line-height: 50px;
+  }
+  h1 {
+    font-size: 66px;
+    line-height: 70px;
+  }
+  .hero {
+    padding: 30px 15px;
+  }
+  .description {
+    padding: 10px;
+    text-align: center;
+  }
+}
+.btn-learn:hover {
+  color: #272142b2;
+  border: 1px solid var(--first-color);
+  font-size: 16px;
+  font-weight: 500;
+  padding: 15px 30px;
 }
