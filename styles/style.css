@@ -6,6 +6,36 @@ font-family: 'Poppins', sans-serif; */
   --fontfamily-header: "Playfair Display", serif;
   --fontfamily-p: "Poppins", sans-serif;
 }
+.logo {
+  max-height: 42px;
+}
+nav {
+  padding: 20px 0;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 45px;
+  margin-left: 15px;
+  font-weight: 500;
+  font-size: 16px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  opacity: 0.7;
+  transition: all 100ms ease-in-out;
+}
+nav a:hover,
+.active {
+  color: var(--first-color);
+  font-weight: 500;
+  opacity: 1;
+}
 .hero {
   background-color: var(--second-color);
   text-align: center;
@@ -135,6 +165,9 @@ p {
   }
   .content h2 {
     text-align: center;
+  }
+  nav {
+    padding: 5px;
   }
 }
 .btn-learn:hover {
