@@ -12,7 +12,7 @@ font-family: 'Poppins', sans-serif; */
   padding: 160px 15px;
   margin: 0;
 }
-.about {
+.content {
   padding: 160px 15px;
 }
 .about-content {
@@ -32,6 +32,13 @@ h2 {
   font-weight: 700;
   font-size: 64px;
   line-height: 85px;
+}
+h3 {
+  font-family: var(--fontfamily-p);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  margin: 0;
 }
 .hero h2 {
   font-family: var(--fontfamily-p);
@@ -64,6 +71,12 @@ h2 {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
+}
+.text-content p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.7;
 }
 .btn-start {
   font-family: var(--fontfamily-p);
@@ -109,7 +122,7 @@ p {
     line-height: 70px;
   }
   .hero,
-  .about {
+  .content {
     padding: 30px 15px;
   }
   .description {
@@ -119,6 +132,9 @@ p {
   .about-content {
     text-align: center;
     margin: 0;
+  }
+  .content h2 {
+    text-align: center;
   }
 }
 .btn-learn:hover {
