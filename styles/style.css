@@ -226,6 +226,9 @@ footer .contact-box p {
   nav {
     padding: 5px;
   }
+  footer p {
+    margin: auto;
+  }
 }
 .btn-learn:hover {
   color: #272142b2;
