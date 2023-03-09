@@ -10,7 +10,7 @@ font-family: 'Poppins', sans-serif; */
   max-height: 42px;
 }
 nav {
-  padding: 20px 0;
+  padding: 25px 0;
 }
 nav ul {
   padding: 0;
@@ -24,7 +24,7 @@ nav li {
   font-weight: 500;
   font-size: 16px;
 }
-nav a {
+nav ul a {
   text-decoration: none;
   color: #272142;
   opacity: 0.7;
@@ -39,11 +39,11 @@ nav a:hover,
 .hero {
   background-color: var(--second-color);
   text-align: center;
-  padding: 160px 15px;
+  padding: 80px 15px;
   margin: 0;
 }
 .content {
-  padding: 160px 15px;
+  padding: 60px 15px;
 }
 .about-content {
   margin: 20px;
@@ -207,7 +207,7 @@ footer .social-link a:hover {
   }
   .hero,
   .content {
-    padding: 30px 15px;
+    padding: 30px 15px 15px;
   }
   .description {
     padding: 10px;
