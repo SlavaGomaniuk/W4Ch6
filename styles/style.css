@@ -142,6 +142,48 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--second-color);
+  padding: 42px 119px;
+  border-radius: 20px;
+}
+footer h4 {
+  font-family: var(--fontfamily-header);
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+}
+footer p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  opacity: 0.7;
+}
+.email-link {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  font-family: var(--fontfamily-p);
+}
+.social-link a {
+  color: var(--first-color);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 10px 15px;
+  margin: 0 33px;
+  background-color: var(--second-color);
+  transition: all 100ms ease-in-out;
+}
+footer .social-link a:hover {
+  color: var(--second-color);
+  background-color: var(--first-color);
+}
 @media (max-width: 970px) {
   h2 {
     font-size: 45px;
@@ -150,6 +192,18 @@ p {
   h1 {
     font-size: 66px;
     line-height: 70px;
+  }
+  footer h4 {
+    font-size: 34px;
+  }
+  footer .btn-start {
+    padding: 10px 26px;
+  }
+  footer p {
+    font-size: 16px;
+  }
+  footer .contact-box {
+    padding: 42px 42px;
   }
   .hero,
   .content {
